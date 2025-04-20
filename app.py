@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model = joblib.load('diamond_price_pred.pkl')
+model = joblib.load('price_prediction.pkl')
 
 
 # Streamlit UI
